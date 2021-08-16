@@ -1,0 +1,844 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@600&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+ 
+}
+
+
+/* MENU INICIO */
+
+
+.menu_items{
+  
+    display: inline-block;
+    list-style: none;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    border-radius: 20em;
+    font-size: 1.5em;
+}
+.menu_items li{
+    display: inline-block;
+    margin: 20px;
+    
+
+}
+
+.menu_items li a{
+    
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+    transition: 0.5s;
+   
+}
+
+.menu_items li a:hover{
+    color:  rgb(210, 179, 214);
+}
+
+
+.menu{
+    background-color: #23272A;
+    color: white;
+    border-radius: 20em;
+    padding: 10px;
+    width: 1150px;
+    position: fixed;
+    margin-top: 1px;
+    margin-left: 400px;
+    z-index: 1
+
+}
+.logo{
+text-transform: uppercase;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-size: 2em;
+    padding: 10px;
+    
+ 
+
+}
+
+.user_image{
+    position: fixed;
+    width: 80px;
+    padding-left: 10px;
+    padding-top: 10px;
+    
+}
+
+.menu_mobile_img{
+    opacity: 0;
+    position: fixed;
+    width: 100px;
+    padding-left: 70px;
+    padding-top: 30px;
+}
+
+.menu_movil{
+    opacity: 0;
+}
+
+/* MENU FINAL */
+
+
+
+
+
+header {
+    width:100%;
+    height: 150px;
+    background: #fcb103;
+    padding: 10px;
+    margin: 0px;
+
+        background: -webkit-linear-gradient(to right, rgb(210, 179, 214),  hsla(226, 17%, 66%, 0.664)), url(../img/amongtrees-2.jpg);
+ 
+    background: linear-gradient(to right, rgb(200, 191, 235), hsla(226, 49%, 68%, 0.664)), url(../img/amongtrees-2.jpg);
+    background-attachment: fixed;
+    position: relative;
+}
+
+/*-------TERMINOS-----------*/
+
+.aclaracion_inicial{
+    width: 1000px;
+    position: relative;
+    top: 200px;
+    left: 470px;
+    
+}
+
+.titulo_terms{
+    width: 1000px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3em;
+    font-weight: 9000;
+  
+    margin-bottom: 20px;
+}
+
+.modificacion{
+    width: 1000px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.texto{
+    width: 1000px;
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: 2px;
+}
+.texto a{
+    text-decoration: none;
+    color: #4b4491;
+    font-weight: 900;
+  
+}
+
+.servidor_terms{
+    width: 1000px;
+    font-family: 'Noto Sans', sans-serif;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+.servidor{
+    width: 1000px;
+    position: relative;
+    top: 250px;
+    left: 470px;
+    
+}
+.servidor_texto{
+    width: 1000px;
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 580;
+}
+
+.server_uso{
+    width: 1000px;
+    position: relative;
+    top: 250px;
+    left: 470px;
+}
+
+.server_uso_terms{
+    width: 1000px;
+    font-family: 'Noto Sans', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+.server_uso_texto{
+    width: 1000px;
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 580;
+}
+
+
+
+.restricciones_usuario_terms{
+    width: 1000px;
+    font-family: 'Noto Sans', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+.restricciones_usuario{
+    width: 1000px;
+    position: relative;
+    top: 250px;
+    left: 470px;
+}
+.restricciones_usuario_texto{
+    width: 1000px;
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 580;
+}
+
+
+.servidor_de_soporte{
+    width: 1000px;
+    position: relative;
+    top: 250px;
+    left: 470px;
+}
+.servidor_de_soporte_terms{
+    width: 1000px;
+    font-family: 'Noto Sans', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+.servidor_de_soporte_texto{
+    width: 1000px;
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 580;
+}
+.lista_soporte_server{
+    padding-top: 30px;
+    padding-left: 60px;
+    width: 1000px;
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 580;
+}
+.servidor_de_soporte_texto_dos{
+    width: 1000px;
+    font-family: 'Manrope', sans-serif;
+    margin-top: 15px;
+    letter-spacing: 2px;
+    font-weight: 580;
+}
+.servidor_de_soporte_texto_dos a{
+    color: #ff0077;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+
+.privacidad_server{
+    width: 1000px;
+    position: relative;
+    top: 250px;
+    left: 470px;
+}
+.privacidad_server_terms{
+    width: 1000px;
+    font-family: 'Noto Sans', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+.privacidad_server_texto{
+    width: 1000px;
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 580;
+}
+.privacidad_server_lista{
+    padding-top: 30px;
+    padding-left: 60px;
+    width: 1000px;
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 580;
+}
+.privacidad_server_dos{
+    width: 1000px;
+    font-family: 'Manrope', sans-serif;
+    margin-top: 15px;
+    letter-spacing: 2px;
+    font-weight: 580;
+}
+
+
+.nwfw_user{
+    width: 1000px;
+    position: relative;
+    top: 250px;
+    left: 470px;
+}
+.nwfw_user_terms{
+    width: 1000px;
+    font-family: 'Noto Sans', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+.nwfw_user_texto{
+    width: 1000px;
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 580;
+}
+
+
+.aceptar_user{
+    width: 1000px;
+    position: relative;
+    top: 250px;
+    left: 470px;
+}
+.aceptar_user_terms{
+    width: 1000px;
+    font-family: 'Noto Sans', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+.aceptar_user_texto{
+    width: 1000px;
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 580;
+}
+.aceptar_user_terms_dos{
+    width: 1000px;
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 580;
+}
+.hr_especial{
+    margin: 15px;
+}
+/*--------TERMINOS--------*/
+hr{
+    width: 80%;
+}
+footer{
+    width: 100%;
+   
+    position: relative;
+    top: 2150px;
+    align-items: center;
+    text-align: center;
+    background-color:#222222;
+    color: white;
+    padding: 30px;
+    
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+
+}
+.titulo_footer{
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 1;
+    font-size: 3em;
+    color: #5d42f5;
+    font-family: 'Recursive', sans-serif;
+}
+.nombre_footer{
+    position: absolute;
+    left: 850px;
+    margin-top: -40px;
+}
+footer a{
+    font-size: 20px;
+    font-weight: 1px;
+    text-decoration: none;
+    color: white;
+}
+.copy{
+    font-size: 20px;
+    font-weight: 1px;
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    left: 1350px;
+    margin-top: -40px;
+}
+
+@media only screen and (max-width: 786px) {
+  *{
+      white-space:unset;
+  }
+
+    nav{
+        position: fixed;
+    }
+    .menu_mobile_img{
+        opacity: 100;
+        position: absolute;
+        top: -14px; left: 210px;
+        display: block;
+      
+    }
+  
+    .menu{
+      
+   
+    
+        color: white;
+         background-color: #23272A;
+         height: 60px;
+         width: 1px;
+         border-radius: 100px;
+         z-index: 0;
+        padding: 10px;
+        width: 400px;
+        position: relative;
+       left: -400px;
+         padding: 10px;
+         z-index: 0;
+        
+    }
+    .menu_items{
+       display: none;
+    }
+    .user_image{
+      width: 50px;
+        position: absolute;
+        top: -1px; left: 295px;
+        display: block;
+    }
+
+    .menu_toggle_complete{
+    
+        color: white;
+         background-color: #23272A;
+         height: 60px;
+         width: 1px;
+         border-radius: 100px;
+         z-index: 0;
+        padding: 10px;
+        width: 400px;
+        position: relative;
+       left: -5px;
+         padding: 10px;
+         z-index: 0;
+         
+
+    }
+
+    .logo_toggle{
+        color: white;
+        text-transform: uppercase;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-size: 2em;
+    padding: 1px;
+    padding-left: 20px;
+    padding-top: 10px;
+    
+    }
+
+    .menu_toggle{
+        padding: 0;
+        padding-top: 0;
+        flex-direction: column;
+        height: 500px;
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        list-style: none;
+        width: 100vw;
+        height: 100%;
+        z-index: 1;
+        
+      
+    }
+    .menu_toggle li{
+        position: relative;
+        top: 8px;
+        width: 1000px;
+        height: 100%;
+        margin: 40px;
+     
+
+
+ 
+    }
+    .menu_toggle li a{
+        margin: 10px;
+        text-decoration: none;
+        color: #ffffff;
+        padding-left: 100px;
+        text-align: center;
+        font-size: 1.5em;
+      
+    }
+    .menu_toggle li a:hover{
+        color: #caa46a;
+        
+    }
+
+    .menu_button_id_toggle{
+        transform: rotate(90deg);
+        position: absolute;
+        top: 15px; left: 270px;
+        display: block;
+       width: 30px;
+
+    }
+
+    .menu_toggle_complete:before{
+        content: "";
+        width: 387px;
+        height: 600px;
+        background-color: black;
+        position: absolute;
+        opacity: 0.5;
+        border-radius: 10px;
+        
+    }
+
+  /* FINAL MENU */
+
+ 
+
+header {
+    width: 100%;
+    height: 150px;
+    background: #fcb103;
+    padding: 10px;
+    margin: 0px;
+
+        background: -webkit-linear-gradient(to right, rgb(210, 179, 214),  hsla(226, 17%, 66%, 0.664)), url(../img/amongtrees-2.jpg);
+ 
+    background: linear-gradient(to right, rgb(200, 191, 235), hsla(226, 49%, 68%, 0.664)), url(../img/amongtrees-2.jpg);
+    background-attachment: fixed;
+    position: relative;
+}
+
+
+
+footer{
+    width: 100%;
+  
+    position: relative;
+    top: 4300px;
+    align-items: center;
+    text-align: center;
+    background-color:#222222;
+    color: white;
+    padding: 30px;
+    
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+
+}
+.titulo_footer{
+    position: relative;
+    left: 20px;
+    text-transform: uppercase;
+    font-weight: 1;
+    font-size: 3em;
+    color: rgb(93, 66, 245);
+    font-family: 'Recursive', sans-serif;
+    width: 100%;
+}
+.nombre_footer{
+    position: relative;
+    top: 60px;
+    left: 10px;
+ 
+    width: 100%;
+    margin: 5px;
+}
+footer a{
+    font-size: 20px;
+    font-weight: 1px;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+  
+}
+.copy{
+   position: relative;
+
+   left: 10px;
+   top: -15px;
+   width: 100%;
+   margin: 5px;
+
+}
+
+hr{
+    width: 330px;
+}
+ /*--------TERMINOS-------------*/
+ .aclaracion_inicial{
+    width: 10px;
+    position: relative;
+    top: 200px;
+    left: 40px;
+    
+}
+
+.titulo_terms{
+    width: 350px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3em;
+    font-weight: 9000;
+
+    margin-bottom: 20px;
+}
+
+.modificacion{
+    width: 1000px;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.texto{
+    width: 300px;
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: 2px;
+}
+.texto a{
+    text-decoration: none;
+    color: #4b4491;
+    font-weight: 900;
+  
+}
+
+
+.servidor_terms{
+    width: 100%;
+    font-family: 'Noto Sans', sans-serif;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+.servidor{
+    width: 1000px;
+    position: relative;
+    top: 250px;
+    left: 40px;
+    
+}
+.servidor_texto{
+    width: 330px;
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 580;
+}
+
+
+
+.server_uso{
+    width: 1000px;
+    position: relative;
+    top: 250px;
+    left: 40px;
+}
+
+.server_uso_terms{
+    width: 1000px;
+    font-family: 'Noto Sans', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+.server_uso_texto{
+    width: 320px;
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 580;
+}
+
+
+
+.restricciones_usuario_terms{
+    width: 250px;
+    font-family: 'Noto Sans', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+.restricciones_usuario{
+    width: 1000px;
+    position: relative;
+    top: 250px;
+    left: 40px;
+}
+.restricciones_usuario_texto{
+    width: 320px;
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 580;
+}
+
+
+.servidor_de_soporte{
+    width: 1000px;
+    position: relative;
+    top: 250px;
+    left: 40px;
+}
+.servidor_de_soporte_terms{
+    width: 350px;
+    font-family: 'Noto Sans', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+.servidor_de_soporte_texto{
+    width: 300px;
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 580;
+}
+.lista_soporte_server{
+    padding-top: 30px;
+    padding-left: 60px;
+    width: 250px;
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 580;
+}
+.servidor_de_soporte_texto_dos{
+    width: 350px;
+    font-family: 'Manrope', sans-serif;
+    margin-top: 15px;
+    letter-spacing: 2px;
+    font-weight: 580;
+}
+.servidor_de_soporte_texto_dos a{
+    color: #ff0077;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+
+.privacidad_server{
+    width: 1000px;
+    position: relative;
+    top: 250px;
+    left: 40px;
+}
+.privacidad_server_terms{
+    width: 400px;
+    font-family: 'Noto Sans', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+.privacidad_server_texto{
+    width: 350px;
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 580;
+}
+.privacidad_server_lista{
+    padding-top: 30px;
+    padding-left: 60px;
+    width: 1000px;
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 580;
+}
+.privacidad_server_dos{
+    width: 350px;
+    font-family: 'Manrope', sans-serif;
+    margin-top: 15px;
+    letter-spacing: 2px;
+    font-weight: 580;
+}
+
+
+
+
+.nwfw_user{
+    width: 1000px;
+    position: relative;
+    top: 250px;
+    left: 40px;
+}
+.nwfw_user_terms{
+    width: 1000px;
+    font-family: 'Noto Sans', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+.nwfw_user_texto{
+    width: 330px;
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 580;
+}
+
+
+.aceptar_user{
+    width: 1000px;
+    position: relative;
+    top: 250px;
+    left: 40px;
+}
+.aceptar_user_terms{
+    width: 400px;
+    font-family: 'Noto Sans', sans-serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+.aceptar_user_texto{
+    width: 350px;
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 580;
+}
+.aceptar_user_terms_dos{
+    width: 350px;
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 580;
+}
+.hr_especial{
+    margin: 15px;
+}
+ /*--------TERMINOS-------------*/
+
+
+}
